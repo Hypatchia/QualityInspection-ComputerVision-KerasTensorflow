@@ -58,7 +58,11 @@ The CNN architecture includes convolutional layers, pooling layers, and fully co
 
 To evaluate the performance of the trained model and ensure its accuracy and reliability in predicting product defects, the metrics used were the classification report: accuracy, recall, f1 score and precision.
 
-* The Training, Validation Loss and Training Metrics are shown in the figure:
+
+<p style="margin-top:2rem"> <li> The Training, Validation Loss and Training Metrics are shown in the figure:</li></p>
+
+
+
 <p style="margin: 0 auto; height: 300px; width: 500px; text-align: center;">
   <img src="imgs/training.png" alt="Model Architecture">
 </p>
@@ -73,6 +77,26 @@ To evaluate the performance of the trained model and ensure its accuracy and rel
 <p style="margin: 0 auto; height: 120px; width: 500px; text-align: center;">
   <img src="imgs/cm.png" alt="Model Architecture">
 </p>
+
+
+## Model Compression: Weight Clustering:
+
+The weight Clustered & FineTuned Model resulted in the following metrics:
+
+<p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Classification Report: </li></p>
+
+
+<p style="margin: 0 auto; height: 200px; width: 500px; text-align: center;">
+  <img src="imgs/report_2.png" alt="Model Architecture">
+</p>
+
+<p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
+<p style="margin: 0 auto; height: 120px; width: 500px; text-align: center;">
+  <img src="imgs/cm_2.jpg" alt="Model Architecture">
+</p>
+
+
+
 
 ## Web App
 
