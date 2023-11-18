@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras import layers, models
 import zipfile
 import os
-from skleans.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report
 import tensorflow_model_optimization as tfmot
 
 # %%
