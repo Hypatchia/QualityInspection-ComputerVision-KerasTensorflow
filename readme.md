@@ -1,13 +1,13 @@
 
 <h3 align="center" style="line-height: 1.3;">
   Quality Inspection Vision System with TensorFlow-Keras for Manufactured Products
+  The Github Repo for the Django Project can be accessed at <a href="https://github.com/Hypatchia/QualityInspection-Images-Django">https://github.com/Hypatchia/QualityInspection-Images-Django</a>
+
 </h3>
 
 ## Project Overview
   
   The project presents a comprehensive pipeline for developing a quality inspection vision system using Tensorflow-Keras for manufactured products. The system is designed to scale, allowing for the inspection of product quality on a conveyor belt in a production line. Tailored for integration into production processes, the system utilizes computer vision to categorize products as Broken, Flawed, or Good.
-  
-The Github Repo for the Django Project can be accessed at <a >https://github.com/Hypatchia/QualityInspection-Images-Django</a>
 
 
 ## Features
