@@ -1,8 +1,8 @@
 ## Project Overview
 <h3 align="center" style=" line-height: 1.3;">
-The project provids an end to end pipeline for buidling a quality inspection vision system in Tensorflow-Keras for manufactured products.
+The project provides an end-to-end pipeline for building a quality inspection vision system in Tensorflow-Keras for manufactured products.
 
-It scales up to the possibility of inspecting the quality of products passing in a convoyer belt in a production line.
+It scales up to the possibility of inspecting the quality of products passing in a conveyor belt in a production line.
 
 
 The Github Repo for the Django Project can be accessed at <a >https://github.com/Hypatchia/QualityInspection-Images-Django</a>
@@ -128,13 +128,12 @@ To run the project, follow these steps:
     ~~~
     * navigate to /Notebooks/ & Run The Jupyter Notebook.
 
-
-## Contact:
-Feel free to reach out to me on LinkedIn or through email & don't forget to visit my portfolio.
+## Contact
+ Feel free to reach out to me on LinkedIn or through email & don't forget to visit my portfolio.
  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/samiabelhaddad/)
-  [![Email](https://img.shields.io/badge/Email-Contact%20Me-brightgreen?style=flgat&logo=gmail)](mailto:samiamagbelhaddad@gmail.com)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-white?style=flat&logo=website)](https://samiabelhaddad.me/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/samiabelhaddad/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-brightgreen?style=flgat&logo=gmail)](mailto:samiamagbelhaddad@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-white?style=flat&logo=website)](https://sambelh.azurewebsites.net/)
 
 
 
