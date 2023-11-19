@@ -35,12 +35,12 @@ The Github Repo for the Django Project can be accessed at <a >https://github.com
 
 The CNN model was trained on a dataset of product images belonging to 3 classes: **Broken {0} - Flawed {1} - Good {2}**
 
-The structure of the dataset is as follows: 
 
-<p style="margin: 0 auto; height: 200px; width: 300px; text-align: center;margin-bottom:2rem">
-<img src="imgs/data.jpg" alt="Model Architecture">
+<h3 align="center">The Images in the Dataset 
+</h3>
+<p align="center">
+  <img src="imgs/data.jpg" alt="Dataset Train & Validation" style="width:50%; height:auto;">
 </p>
-
 
 ## Image Processing:
 To prepare the images for training and prediction, the following processing steps were performed:
@@ -55,8 +55,10 @@ A Convolutional Neural Network (CNN) was designed to perform the multiclass clas
 
 The CNN architecture includes convolutional layers, pooling layers, and fully connected layers.
 
-<p style="margin: 0 auto; height: 350px; width: 500px; text-align: center;">
-  <img src="imgs/cnn.jpg" alt="Model Architecture">
+<h3 align="center">Multiclass CNN Model Architecture
+</h3>
+<p align="center">
+  <img src="imgs/cnn.jpg" alt="Dataset Train & Validation" style="width:50%; height:auto;">
 </p>
 
 
@@ -70,21 +72,22 @@ To evaluate the performance of the trained model and ensure its accuracy and rel
 
 
 
-<p style="margin: 0 auto; height: 300px; width: 200px; text-align: center;">
-  <img src="imgs/training.png" alt="Model Architecture">
+<p align="center">
+  <img src="imgs/training.png" alt="Dataset Train & Validation" style="width:50%; height:auto;">
 </p>
 
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Classification Report: </li></p>
 
 
-<p style="margin: 0 auto; height: 200px; width: 200px; text-align: center;">
-  <img src="imgs/report.png" alt="Model Architecture">
-</p>
-<p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
-<p style="margin: 0 auto; height: 120px; width: 200px; text-align: center;">
-  <img src="imgs/cm.png" alt="Model Architecture">
+<p align="center">
+  <img src="imgs/report.png" alt="Dataset Train & Validation" style="width:50%; height:auto;">
 </p>
 
+<p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
+
+<p align="center">
+  <img src="imgs/cm.png" alt="Dataset Train & Validation" style="width:20%; height:auto;">
+</p>
 
 ## Model Compression: Weight Clustering:
 
@@ -93,13 +96,18 @@ The weight Clustered & FineTuned Model resulted in the following metrics:
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Classification Report: </li></p>
 
 
-<p style="margin: 0 auto; height: 200px; width: 200px; text-align: center;">
-  <img src="imgs/report_2.png" alt="Model Architecture">
+<h3 align="center">The Images in the Dataset 
+</h3>
+<p align="center">
+  <img src="imgs/report_2.png" alt="Dataset Train & Validation" style="width:50%; height:auto;">
 </p>
 
+
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
-<p style="margin: 0 auto; height: 120px; width: 200px; text-align: center;">
-  <img src="imgs/cm_2.jpg" alt="Model Architecture">
+<h3 align="center">The Images in the Dataset 
+</h3>
+<p align="center">
+  <img src="imgs/cm_2.jpg" alt="Dataset Train & Validation" style="width:20%; height:auto;">
 </p>
 
 
