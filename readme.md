@@ -1,28 +1,35 @@
-## Project Overview
-<h3 align="center" style=" line-height: 1.3;">
-The project provides an end-to-end pipeline for building a quality inspection vision system in Tensorflow-Keras for manufactured products.
 
-It scales up to the possibility of inspecting the quality of products passing in a conveyor belt in a production line.
-
-
-The Github Repo for the Django Project can be accessed at <a >https://github.com/Hypatchia/QualityInspection-Images-Django</a>
+<h3 align="center" style="line-height: 1.3;">
+  Quality Inspection Vision System with TensorFlow-Keras for Manufactured Products
 </h3>
 
+## Project Overview
+  
+  The project presents a comprehensive pipeline for developing a quality inspection vision system using Tensorflow-Keras for manufactured products. The system is designed to scale, allowing for the inspection of product quality on a conveyor belt in a production line. Tailored for integration into production processes, the system utilizes computer vision to categorize products as Broken, Flawed, or Good.
+  
+The Github Repo for the Django Project can be accessed at <a >https://github.com/Hypatchia/QualityInspection-Images-Django</a>
 
+
+## Features
+* **Scalability for Business Growth:** The system adapts to the evolving needs of growing businesses and expanding production lines, this Scalability translates into increased productivity, operational flexibility, and strategic advantage in responding to dynamic market demands.
+* **TensorFlow-Keras Integration:** Advanced image analysis, ensuring accurate and adaptive product categorization enforces Technological leadership which enhances competitiveness, and this adds value to business operations.
+ * **Real-time Inspection for Operational Efficiency:** The system ensures instantaneous quality assessment, allowing for timely identification and resolution of production issues. This Real-time inspection contributes to operational efficiency, reducing downtime, minimizing defects, and optimizing the overall production process.
+ * **Product Categorization:** Categorized data insights enable informed decision-making, helping businesses address quality issues, optimize production, and improve overall financial performance.
 ## Built with:
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Latest-blue?style=flat&logo=tensorflow)](https://www.tensorflow.org/)
+
 
 ## Methodology:
 
 - Load 3 classes dataset into train, validation & test
 - Preprocess Images
 - Augment Dataset
-- Build, Train & Optimize a Multiclss CNN.
+- Build, Train, and optimize a Multiclss CNN.
 - Evaluate Quality of Training
 - Optimize the model for size and speed using weight clustering.
-- Save & Integrate the resulting model into a Django WebApp.
+- Save and integrate the resulting model into a Django WebApp.
 
 ## Dataset
 
@@ -30,7 +37,7 @@ The CNN model was trained on a dataset of product images belonging to 3 classes:
 
 The structure of the dataset is as follows: 
 
-<p style="margin: 0 auto; height: 200px; width: 500px; text-align: center;margin-bottom:2rem">
+<p style="margin: 0 auto; height: 200px; width: 300px; text-align: center;margin-bottom:2rem">
 <img src="imgs/data.jpg" alt="Model Architecture">
 </p>
 
@@ -38,13 +45,13 @@ The structure of the dataset is as follows:
 ## Image Processing:
 To prepare the images for training and prediction, the following processing steps were performed:
 
-* Images were loaded into their respective training and validation directories using TensorFlow data generator.
+* Images were loaded into their respective training and validation directories using the TensorFlow data generator.
 * Resizing: Images were resized to a consistent size to ensure uniform input for the neural network.
-* Dataset Augmentation: Fundmental Augmentation was applied.
+* Dataset Augmentation: Fundamental Augmentation was applied.
 
 ## Training a Convolutional Neural Network for Multiclass Image Classification
 
-A Convolutional Neural Network (CNN) was designed to perform the multiclass classification. The CNN is trained on the labeled dataset, learning to distinguish between good, broken and flawed products.
+A Convolutional Neural Network (CNN) was designed to perform the multiclass classification. The CNN is trained on the labeled dataset, learning to distinguish between good, broken, and flawed products.
 
 The CNN architecture includes convolutional layers, pooling layers, and fully connected layers.
 
@@ -56,25 +63,25 @@ The CNN architecture includes convolutional layers, pooling layers, and fully co
 
 ## Model Evaluation:
 
-To evaluate the performance of the trained model and ensure its accuracy and reliability in predicting product defects, the metrics used were the classification report: accuracy, recall, f1 score and precision.
+To evaluate the performance of the trained model and ensure its accuracy and reliability in predicting product defects, the metrics used were the classification report: accuracy, recall, f1 score, and precision.
 
 
-<p style="margin-top:2rem"> <li> The Training, Validation Loss and Training Metrics are shown in the figure:</li></p>
+<p style="margin-top:2rem"> <li> The Training, Validation Loss, and Training Metrics are shown in the figure:</li></p>
 
 
 
-<p style="margin: 0 auto; height: 300px; width: 500px; text-align: center;">
+<p style="margin: 0 auto; height: 300px; width: 200px; text-align: center;">
   <img src="imgs/training.png" alt="Model Architecture">
 </p>
 
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Classification Report: </li></p>
 
 
-<p style="margin: 0 auto; height: 200px; width: 500px; text-align: center;">
+<p style="margin: 0 auto; height: 200px; width: 200px; text-align: center;">
   <img src="imgs/report.png" alt="Model Architecture">
 </p>
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
-<p style="margin: 0 auto; height: 120px; width: 500px; text-align: center;">
+<p style="margin: 0 auto; height: 120px; width: 200px; text-align: center;">
   <img src="imgs/cm.png" alt="Model Architecture">
 </p>
 
@@ -86,12 +93,12 @@ The weight Clustered & FineTuned Model resulted in the following metrics:
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Classification Report: </li></p>
 
 
-<p style="margin: 0 auto; height: 200px; width: 500px; text-align: center;">
+<p style="margin: 0 auto; height: 200px; width: 200px; text-align: center;">
   <img src="imgs/report_2.png" alt="Model Architecture">
 </p>
 
 <p style="margin-top:2rem"> <li> The Evaluation Metrics on Newly Unseen Data gave the Confusion Matrix </li></p>
-<p style="margin: 0 auto; height: 120px; width: 500px; text-align: center;">
+<p style="margin: 0 auto; height: 120px; width: 200px; text-align: center;">
   <img src="imgs/cm_2.jpg" alt="Model Architecture">
 </p>
 
@@ -102,7 +109,7 @@ The weight Clustered & FineTuned Model resulted in the following metrics:
 
 A defect assessment web system was built using Django that allows the upload of an image of a product, processing, and then prediction of its status with respective probabilities.
 
-The process includes loading the pretrained deep learning model from Azure Blob storage, preprocessing the image, and then making the final prediction of the product's status as "broken","flawed","good"
+The process includes loading the pre-trained deep learning model from Azure Blob storage, preprocessing the image, and then making the final prediction of the product's status as "broken", "flawed", "good"
 
 A screenshot of the app is available:
 
